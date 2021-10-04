@@ -1,1 +1,19 @@
 Fill in the passphrases here.
+Passcode:
+1. greenEggsAndHam
+2. iHateCplusplus
+3. HTMLRocks
+4. JavaScriptRules
+5. SvelteBeatsReact
+6. ThisIsJS
+7. YouFoundMe
+8. coolcoolcool
+9. 2020sucked
+10. ./question10.jpg
+11. a11yComesFirst
+12. iLoveWebDev
+
+##### To the TA grading this, Apologies for all the terrible 
+git commits, I kept trying to save my progress to the main
+ unforked CSE-110 branch instead of my own version and made quite
+ a few attempts before I realized my mistake.
