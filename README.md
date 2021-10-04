@@ -1,0 +1,1 @@
+Link to my published meeting minute site: https://sherkuo.github.io/Lab2/
