@@ -86,7 +86,13 @@ ol{
     margin-left: 30px;
 }
 
-img ~ p{
+/*child combinator */
+li > ul {
+    font-style: italic;
+}
+
+/* adjacent sibling selector*/
+img + p{
     background-color: lightpink;
     font-style: italic;
 }
