@@ -5,16 +5,19 @@ body {
 h1 {
   color: rgb(82, 50, 19);
   margin-left: 1cm;
+  text-decoration: underline overline yellow ;
 }
 
 h2 {
     color: rgb(121, 90, 45);
     margin-left: 10mm;
+    text-decoration: underline dotted;
 }
 
 h3 {
     color: rgb(195, 188, 149);
     margin-left: 40Q;
+    text-decoration: underline dotted;
 }
 
 div{
