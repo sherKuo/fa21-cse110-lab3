@@ -1,26 +1,43 @@
 body {
-    background-color: rgb(218, 100, 45);
+    background-color: rgb(121, 187, 218);
   }
   
 h1 {
-  color: rgb(97, 19, 170);
+  color: rgb(82, 50, 19);
   margin-left: 1cm;
 }
 
 h2 {
-    color: greenyellow;
+    color: rgb(121, 90, 45);
     margin-left: 10mm;
 }
 
 h3 {
-    color: rgb(235, 170, 202);
+    color: rgb(195, 188, 149);
     margin-left: 40Q;
 }
 
 div{
-    color: rgba(176, 196, 0);
+    color: yellow;
+    padding-inline-start: 55px;
 }
 
+ol{
+    color: darkgreen;
+    margin-left: 30px;
+}
+
+nav{
+    padding: auto;
+    margin-top: 10px;
+    /*margin: 10px 5px 20px 30mm; */
+    margin: 10px 20px; /* short form*/
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 10Q solid indigo;
+}
       
 .box {
     padding-top: 0;
