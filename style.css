@@ -91,6 +91,17 @@ li > ul {
     font-style: italic;
 }
 
+/*general sibling combinator*/
+video ~ p{
+    background-color: lightslategrey;
+    color: black;
+}
+
+/* combining two selectors */
+p.block{
+    font-size: 1lh;
+}
+
 /* adjacent sibling selector*/
 img + p{
     background-color: lightpink;
