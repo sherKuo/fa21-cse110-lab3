@@ -47,6 +47,13 @@ nav{
     padding-bottom: 10px;
     border: 10Q solid indigo;
 }
+
+img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    min-width: 100px;
+}
       
 .box {
     padding-top: 0;
