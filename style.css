@@ -17,6 +17,8 @@ h2 {
     text-decoration: underline dotted;
 }
 
+
+
 h3 {
     color: rgb(195, 188, 149);
     margin-left: 40Q;
@@ -44,6 +46,9 @@ div{
     grid-gap: 10px;    
 }
 
+* ul{
+    font-style: italic;
+}
 
 @media screen and (max-width: 480px){
     .wrapper{
