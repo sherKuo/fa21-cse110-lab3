@@ -6,12 +6,13 @@
         <meta name="description" content="Club minutes">
         <meta name="Minutes keeper" content="Brian Johnson">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        /* commenting in this doc*/
+        <!---Commenting on this doc-->
+        
     </head>
 
     <body>
         <nav>
-            <a href="https://www.imdb.com/title/tt0088847/">Te Breakfast Club IMDB</a> |
+            <a href="https://www.imdb.com/title/tt0088847/">The Breakfast Club IMDB</a> |
             <a href="https://thebreakfastclub.fandom.com/wiki/The_Breakfast_Club_Wiki">WifiFandom </a> 
         </nav>
         
@@ -31,7 +32,7 @@
                     <li>Claire Standish</li>
                     <li>Brian Johnson</li>
                     <li>
-                        <p> All members of the board were tardy but present.</p>
+                        <p class="none"> All members of the board were tardy but present.</p>
                     </li>
                 </ol> <!--- end of attendance list type i ordering-->
             </li>
@@ -39,7 +40,7 @@
                 <li>
                     <ol type="i"> 
                     <li>Detention Meeting Times</li>
-                    <li><p> Current meeting times are inconvenient with the schedule of 
+                    <li><p class="block"> Current meeting times are inconvenient with the schedule of 
                         the board members.  Current time frams overlaps with the time <br>
                         of Football practice, fashion club, as well as Model UN mock
                         trials. Members decided to meet at a new time of Mondays <br>
@@ -47,7 +48,7 @@
                     </p></li>
 
                     <li>Approval of Alligating $50 for Snack Budget </li>
-                    <li><p> Claire Standish moved to move $50 from special projects 
+                    <li><p class="inline"> Claire Standish moved to move $50 from special projects 
                         account to snack budget account. Seconded by Brian Johnson. <br>
                         Motion carried unanimously by the consent of those present. 
                     </p></li>
@@ -57,13 +58,13 @@
             <li><em>New Order of Business</em></li>
             <li><ol type="i"> 
                     <li>Discussing Detention Changes</li>
-                    <li><p>PRO: Detention policy creates fear and seriousness about education 
+                    <li><p class="block">PRO: Detention policy creates fear and seriousness about education 
                         in students and teachers. Students will study well to crack <br>
                         the annual exams, and teachers will take the responsibility 
                         to make their students capable of getting promoted to the next class.<br>
                         Thereby the quality of education will be improved.
                     </p> </li>
-                    <li><p>CON: Detention policy doesn’t guarantee improvement in quality 
+                    <li><p class="block">CON: Detention policy doesn’t guarantee improvement in quality 
                         of education as long as exams can be passed by byhearting the <br>
                         content. Exams should assess the overall development of 
                         students.
@@ -75,7 +76,7 @@
             <li>Discussion and Open Forum</li>
             <li><ol type="i"> 
                 <li>Personal Growth and Character Development</li>
-                <p>Five high school students from different walks of life endure a 
+                <p class="inline-block">Five high school students from different walks of life endure a 
                     Saturday detention under a power-hungry principal. The disparate <br>
                     group includes rebel John, princess Claire, outcast Allison, 
                     brainy Brian and Andrew, the jock. Each has a chance to tell his <br>
@@ -83,16 +84,22 @@
                     -- and when the day ends, they question whether school will ever <br>
                     be the same.</p>
                 <li> Character Conflicts
-                    <p>
-                        Throughout the film, the different characters are in conflict 
-                        with each other -- mostly because they come from different social <br>
-                        & economic groups.   For example, the verbal and psychological 
-                        conflict between John and Claire is the result of their very  <br>
-                        different class backgrounds.  Another important conflict shown in 
-                        the film is that between John and the teacher responsible for  <br>
-                        detention. An underlying conflict is that between each of the students 
-                        and their parents.
-                    </p>
+                    <div class="container">
+                        <div class="box">
+                        <p>
+                            Throughout the film, the different characters are in conflict 
+                            with each other -- mostly because they come from different social <br>
+                            & economic groups.   For example, the verbal and psychological 
+                            conflict between John and Claire is the result of their very  <br>
+                            different class backgrounds.  Another important conflict shown in 
+                            the film is that between John and the teacher responsible for  <br>
+                            detention. An underlying conflict is that between each of the students 
+                            and their parents.
+                        </p>
+                        </div>
+                    </div>
+                          
+
                 </li>
                 <li> Character Cooperation
                     <p>
@@ -127,15 +134,15 @@
             <input type="text" id="name" name="name" value=""><br><br>
 
             <fieldset>
-              <legend>Choose the best meeting day for the 3-5pm window:</legend>
+              <legend >Choose the best meeting day for the 3-5pm window:</legend>
           
-              <input type="radio" id="Monday" name="meeting time">
+              <input type="radio" id="Monday" name="meeting time" class="padMultChoice">
               <label for="Monday">Monday</label><br/>
           
-              <input type="radio" id="Wednesday" name="meeting time">
+              <input type="radio" id="Wednesday" name="meeting time" class="padMultChoice">
               <label for="Wednesday">Wednesday</label><br/>
           
-              <input type="radio" id="Friday" name="meeting time">
+              <input type="radio" id="Friday" name="meeting time" class="padMultChoice">
               <label for="Friday">Friday</label>
             </fieldset> <br>
 

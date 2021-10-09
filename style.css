@@ -30,6 +30,12 @@ ol{
     margin-left: 30px;
 }
 
+.none, .inline, .block, .inline-block { color: hotpink}
+.none{display : none; color: maroon }
+.inline{display : inline; color: magenta}
+.block{display : block; color: navy}
+.inline-block{display : inline-block; color: indigo }
+
 nav{
     padding: auto;
     margin-top: 10px;
@@ -45,8 +51,8 @@ nav{
 .box {
     padding-top: 0;
     padding-right: 30px;
-    padding-bottom: 40px;
-    padding-left: 4em;
+    padding-bottom: 1ch;
+    padding-left: 1em;
   }
   
 .container {
