@@ -1,8 +1,41 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(218, 100, 45);
   }
   
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: rgb(97, 19, 170);
+  margin-left: 1cm;
+}
+
+h2 {
+    color: greenyellow;
+    margin-left: 10mm;
+}
+
+h3 {
+    color: rgb(235, 170, 202);
+    margin-left: 40Q;
+}
+
+div{
+    color: rgba(176, 196, 0);
+}
+
+      
+.box {
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+  }
+  
+.container {
+    padding: 20px;
+}
+
+
+.padMultChoice{
+    padding-top: 10ex;
+    padding-left: 10lh;
+    padding-bottom: 10em;
 }
