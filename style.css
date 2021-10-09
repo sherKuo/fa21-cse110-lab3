@@ -1,8 +1,125 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(121, 187, 218);
   }
   
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: rgb(82, 50, 19);
+  margin-left: 1cm;
+  text-decoration: underline overline yellow ;
+  position:static;
+  font-family: 'Ephesis', cursive;
+
+}
+
+h2 {
+    color: rgb(121, 90, 45);
+    margin-left: 10mm;
+    text-decoration: underline dotted;
+}
+
+h3 {
+    color: rgb(195, 188, 149);
+    margin-left: 40Q;
+    text-decoration: underline dotted;
+}
+a:hover{
+    color: rgb(53, 182, 13);
+    text-decoration: underline overline dotted orangered;
+} 
+
+a:active{
+    color: rgb(102, 0, 128);
+    text-decoration: wavy purple;
+}
+
+div{
+    color: yellow;
+    padding-inline-start: 25px;
+}
+
+/*grid implementation*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-gap: 10px;    
+}
+
+
+@media screen and (max-width: 480px){
+    .wrapper{
+        grid-template-columns: 100%;
+    }
+}
+
+.grid1{
+    grid-row:1;
+    grid-column: 1;
+}
+
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+rickRoll{
+    /*for my video*/
+    margin-left: 20px;
+}
+
+button:hover{
+    color:rgb(248, 16, 113);
+}
+
+ol{
+    color: darkgreen;
+    margin-left: 30px;
+}
+
+.none, .inline, .block, .inline-block { color: hotpink}
+.none{display : none; color: maroon }
+.inline{display : inline; color: magenta}
+.block{display : block; color: navy}
+.inline-block{display : inline-block; color: indigo }
+
+nav{
+    padding: auto;
+    margin-top: 10px;
+    /*margin: 10px 5px 20px 30mm; */
+    margin: 10px 20px; /* short form*/
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 10Q solid indigo;
+    position: sticky;
+    top: 10mm; bottom : 10mm;
+    margin-bottom: 15mm;
+    background-color: lightsteelblue;
+}
+
+img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    min-width: 100px;
+}
+      
+.box {
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 1ch;
+    padding-left: 1em;
+  }
+  
+.container {
+    padding: 20px;
+}
+
+
+.padMultChoice{
+    padding-top: 10ex;
+    padding-left: 10lh;
+    padding-bottom: 10em;
 }
