@@ -6,12 +6,15 @@ h1 {
   color: rgb(82, 50, 19);
   margin-left: 1cm;
   text-decoration: underline overline yellow ;
+  position:static;
 }
 
 h2 {
     color: rgb(121, 90, 45);
     margin-left: 10mm;
     text-decoration: underline dotted;
+    position: absolute;
+    top: 20mm; bottom : 10mm;
 }
 
 h3 {
