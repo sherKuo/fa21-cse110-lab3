@@ -61,6 +61,10 @@ div{
     grid-column: 1;
 }
 
+a[title]{
+    font-style:italic;
+}
+
 .flexBox{
     display: flex;
     flex-direction: column;
@@ -80,6 +84,11 @@ button:hover{
 ol{
     color: darkgreen;
     margin-left: 30px;
+}
+
+img ~ p{
+    background-color: lightpink;
+    font-style: italic;
 }
 
 .none, .inline, .block, .inline-block { color: hotpink}
