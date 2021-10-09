@@ -37,6 +37,7 @@ a:active{
 div{
     color: yellow;
     padding-inline-start: 25px;
+    text-align: left;
 }
 
 /*grid implementation*/
