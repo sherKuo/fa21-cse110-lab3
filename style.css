@@ -13,8 +13,6 @@ h2 {
     color: rgb(121, 90, 45);
     margin-left: 10mm;
     text-decoration: underline dotted;
-    position: absolute;
-    top: 20mm; bottom : 10mm;
 }
 
 h3 {
@@ -22,10 +20,23 @@ h3 {
     margin-left: 40Q;
     text-decoration: underline dotted;
 }
+a:hover{
+    color: rgb(53, 182, 13);
+    text-decoration: underline overline dotted orangered;
+} 
+
+a:active{
+    color: rgb(102, 0, 128);
+    text-decoration: wavy purple;
+}
 
 div{
     color: yellow;
     padding-inline-start: 55px;
+}
+
+button:hover{
+    color:rgb(248, 16, 113);
 }
 
 ol{
@@ -49,6 +60,10 @@ nav{
     padding-right: 20px;
     padding-bottom: 10px;
     border: 10Q solid indigo;
+    position: sticky;
+    top: 10mm; bottom : 10mm;
+    margin-bottom: 15mm;
+    background-color: lightsteelblue;
 }
 
 img{
